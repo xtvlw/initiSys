@@ -1,0 +1,15 @@
+{
+    "initInstall": "nala",
+    "apps": [
+        "flatpak",
+        "transmission-gtk",
+        "keepassxc",
+        "gimp",
+        ""
+    ],
+    "flatpak": [
+        "inkscape",
+        "code-oss",
+        "obsidian"
+    ]
+}
