@@ -3,7 +3,9 @@
 	"flatpak",
 	"transmission-gtk",
 	"blender",
-	"gimp"
+	"gimp",
+    "gnome-tweaks",
+    "gnome-shell-extensions"
 	],
     "flatpak": [
        "code-oss",
