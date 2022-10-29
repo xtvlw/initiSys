@@ -1,0 +1,14 @@
+{
+	"packs" : [
+	"flatpak",
+	"transmission-gtk",
+	"blender",
+	"gimp"
+	],
+    "flatpak": [
+       "code-oss",
+       "obsidian",
+       "librewolf"
+    ]
+    
+}

@@ -1,16 +1,23 @@
 from os import system
 from json import dumps, loads
 
-def install(args):
-    system(f"sudo nala {args} -y")
+
+def installNala():
+	system("sudo apt install nala -y")
 
 
+def installPacks():
+	with open("./config.json", "r") as config:
+		a = (config.read())
+		print(type(a))
+		file = loads(config.read())
+		for pack in file.packs:
+			packs += pack
+		print(packs)
 
-def main():
-    with open('../public/config.json', 'r') as config:
-        config = loads(config.read())
-        system(f"sudo apt install {config.initInstall} -y")
-    
+def start():
+	installPacks()
+
 
 if __name__ == "__main__":
-    main()
+	start()
