@@ -16,7 +16,9 @@
        "discord",
        "steam",
        "spotube",
-       "vlc"
+       "vlc",
+       "im.riot.Riot",
+       ""
     ]
     
 }
