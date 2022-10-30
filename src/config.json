@@ -5,12 +5,18 @@
 	"blender",
 	"gimp",
     "gnome-tweaks",
-    "gnome-shell-extensions"
+    "gnome-shell-extensions",
+    "keepassxc",
+    "git"
 	],
     "flatpak": [
        "code-oss",
        "obsidian",
-       "librewolf"
+       "librewolf",
+       "discord",
+       "steam",
+       "spotube",
+       "vlc"
     ]
     
 }

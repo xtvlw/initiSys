@@ -50,7 +50,13 @@ def configGnome():
     """
     Config the gnome themes and extentions
     """
+    # installing theme
+    system("git clone https://github.com/EliverLara/Otis.git")
+    system("sudo cp -r Otis/ /usr/share/themes/")
 
+    # installing icons
+    system("git clone https://github.com/yeyushengfan258/Reversal-icon-theme.git")
+    system("./Reversal-icon-theme/install.sh -a")
 
 def start():
     """
