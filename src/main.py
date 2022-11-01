@@ -51,8 +51,8 @@ def configGnome():
     Config the gnome themes and extentions
     """
     # installing theme
-    system("git clone https://github.com/EliverLara/Otis.git")
-    system("sudo cp -r Otis/ /usr/share/themes/")
+    system("git clone https://github.com/vinceliuice/ChromeOS-theme.git")
+    system("./ChromeOS-theme/install.sh")
 
     # installing icons
     system("git clone https://github.com/yeyushengfan258/Reversal-icon-theme.git")
